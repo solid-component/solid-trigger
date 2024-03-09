@@ -1,0 +1,41 @@
+{
+  "name": "solid-trigger",
+  "version": "1.0.0-beta",
+  "type": "module",
+  "keywords": [
+    "solid",
+    "trigger",
+    "component"
+  ],
+  "homepage": "https://github.com/solid-component/solid-trigger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solid-component/solid-trigger"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "types"
+  ],
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.3",
+    "classnames": "^2.5.1",
+    "solid-js": "^1.8.15",
+    "solid-styled-components": "^0.28.5",
+    "solid-transition-group": "^0.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-solid": "^2.10.1"
+  }
+}
